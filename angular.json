@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "imgur-ng"
+    }
+  },
+  "defaultProject": "imgur-ng",
+  "cli": {
+    "analytics": "ab2c4422-ca78-4866-b9e7-d897639be81f"
+  }
 }
