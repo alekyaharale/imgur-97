@@ -20,7 +20,6 @@ export class AppComponent {
     this.page=1;
     this.api_key='0bd38f7a4cc67147fd83797326c1623c';
     this.api.top_rated(this.lang,this.page,this.api_key).subscribe (res=>{
-
       this.data=res['results'];
       console.log(this.data);
      })
