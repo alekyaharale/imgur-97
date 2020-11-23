@@ -12,4 +12,7 @@ export class ApiService {
   top_rated(lang,page,api_key) {
      return this.http.get('https://api.themoviedb.org/3/movie/top_rated?api_key='+api_key+'&language='+lang+'&page='+page);
   }
+  upcoming(lang,page,api_key){
+    return this.http.get('https://api.themoviedb.org/3/movie/upcoming?api_key='+api_key+'&language='+lang+'&page='+page);
+  }
 }
