@@ -82,6 +82,7 @@ export class PostDetailsComponent implements OnInit {
       }
       this.next_page++;
       const dict = res['results'];
+      this.data = res['results'];
       for (let i = 0; i < dict.length;i++){
         let post={
           'poster_path':dict[i]['poster_path'],
@@ -136,6 +137,8 @@ export class PostDetailsComponent implements OnInit {
   }
   previous(){
     this.id--;
+    console.log(this.type);
+    console.log(this.id+'in previous');
     let post = {
       'poster_path': this.data[this.id+1]['poster_path'],
       'original_title': this.data[this.id+1]['original_title'],

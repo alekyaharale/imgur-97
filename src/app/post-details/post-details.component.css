@@ -224,6 +224,7 @@
 }
 .left-part{
   flex-grow: 1;
+  width: 490px;
 }
 .image-part{
   display: flex;
@@ -237,5 +238,5 @@
   display: none;
 }
 .right-part{
-
+ width: 250px;
 }
