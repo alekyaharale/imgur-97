@@ -8,13 +8,15 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { HomeComponent } from './home/home.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import {InfiniteScrollModule} from 'ngx-infinite-scroll';
+import { PostDetailsComponent } from './post-details/post-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SignUpComponent,
     HomeComponent,
-    SignInComponent
+    SignInComponent,
+    PostDetailsComponent
   ],
   imports: [
     BrowserModule,

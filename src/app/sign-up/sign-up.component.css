@@ -1,0 +1,149 @@
+body{
+  background-color: black;
+  margin: 0px;
+  font-family:"Open Sans" ;
+}
+@font-face {font-family: "Sans";
+  src: url("http://db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.eot"); /* IE9*/
+  src: url("http://db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("http://db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.woff2") format("woff2"), /* chrome firefox */
+  url("http://db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.woff") format("woff"), /* chrome firefox */
+  url("http://db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+  url("http://db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.svg#Sans") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "Open Sans";
+  src: url("http://db.onlinewebfonts.com/t/629a55a7e793da068dc580d184cc0e31.eot"); /* IE9*/
+  src: url("http://db.onlinewebfonts.com/t/629a55a7e793da068dc580d184cc0e31.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("http://db.onlinewebfonts.com/t/629a55a7e793da068dc580d184cc0e31.woff2") format("woff2"), /* chrome firefox */
+  url("http://db.onlinewebfonts.com/t/629a55a7e793da068dc580d184cc0e31.woff") format("woff"), /* chrome firefox */
+  url("http://db.onlinewebfonts.com/t/629a55a7e793da068dc580d184cc0e31.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+  url("http://db.onlinewebfonts.com/t/629a55a7e793da068dc580d184cc0e31.svg#Open Sans") format("svg"); /* iOS 4.1- */
+}
+.top-left{
+  font-size: 13px;
+  line-height: 28px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+  position: fixed;
+  margin: 20px;
+  z-index: 10;
+  height: 30px;
+  padding-left: 15px;
+  background: url(https://s.imgur.com/images/access/back-to-imgur.png) no-repeat;
+  opacity: .9;
+  color: white;
+}
+.top-block{
+  position: relative;
+  width: 350px;
+  padding-top: 80px;
+  margin: auto;
+  z-index: 2;
+}
+.heading{
+  position: relative;
+  display: block;
+  margin: 0 auto 90px;
+  width: 187px;
+  height: 65px;
+  background: url(https://s.imgur.com/images/access/access-logo.png) no-repeat;
+}
+.register-with{
+  font-size: 11px;
+  letter-spacing: .03em;
+  line-height: 28px;
+  color: #fff;
+  text-align: center;
+}
+.signin-block{
+  display: block;
+  margin: auto;
+  width: fit-content;
+  opacity: 1
+}
+.icons{
+  display: block;
+  background: #2C2F34;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.fa {
+  width: 55px;
+  height: 35px;
+  padding-top: 10px;
+  -webkit-transition: background-color .2s;
+  transition: background-color .2s;
+  border-bottom: 5px solid;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+.f-color{
+  border-bottom-color: #3A558E;
+}
+.t-color{
+  border-bottom-color: #4099FF;
+}
+.a-color{
+  border-bottom-color: #fff;
+}
+.g-color{
+  border-bottom-color: #4285F4;
+}
+.y-color{
+  border-bottom-color: #7B0099;
+}
+.mr10{
+  margin-right: 10px;
+}
+.fa-facebook {
+  background: #212121;
+  color: white;
+}
+.fa-twitter {
+  background: #212121;
+  color: white;
+}
+.fa-apple {
+  background: #212121;
+  color: white;
+}
+.fa-google {
+  background: #212121;
+  color: white;
+}
+.fa-yahoo {
+  background: #212121;
+  color: white;
+}
+.input-c{
+  font-family: inherit;
+  border: 1px solid transparent;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.1);
+  background-color: #191919;
+  outline: 0;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  font-size: .9em;
+  line-height: 1.5em;
+  resize: none;
+  color: #f2f2f2;
+  margin-bottom: 10px;
+  letter-spacing: .02em;
+
+}
+.button-violet{
+  float: right;
+  background: #5c69ff;
+  border: none;
+  padding: 10px 25px;
+  color: #F2F2F2;
+  text-decoration: none;
+  outline: 0;
+  display: inline-block;
+  border-radius: 2px;
+  font-size: 14px;
+
+}
