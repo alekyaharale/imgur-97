@@ -48,3 +48,156 @@
   url("http://db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
   url("http://db.onlinewebfonts.com/t/952bab25f6798d6bb1937d67e9bee4dd.svg#Sans") format("svg"); /* iOS 4.1- */
 }
+.main{
+  display: flex;flex-direction: column;align-items: center;justify-content: space-between;background-size: cover;
+  background-position: 50%;background-color: #474a51;padding-bottom: 76px;opacity: 1;top: 0;transition: opacity .5s,box-shadow .4s;
+}
+.blue-part{
+  background-color: rgb(23, 21, 68);width: 100%;
+}
+.green{
+  background-color: #1bb76e;
+  padding: 7px 14px 7px 9px;
+  margin: auto 27px;
+}
+.hamburger{
+  text-decoration: none;color: white;font-size: 26px;margin-bottom: 8px;margin-left: 15px;margin-right: 100px
+}
+.green-button{
+  background-color: #1bb76e;
+  padding: 7px 14px 7px 9px;
+  margin: auto 27px;
+  text-align: center;
+  display: inline-block;border-radius: 3px;font-size: 15px;font-weight: 700;outline: none;border: none;width: auto;box-shadow: 0 6px 10px 0 rgba(27,28,30,.31);color: #ffffff;
+}
+.violet-button{
+  background: #6432f9;padding: 0 10px 0 9px;overflow: hidden;line-height: 35px;margin: auto 27px auto 20px;text-align: center;
+  display: inline-block;border-radius: 3px;font-size: 15px;font-weight: 700;outline: none;border: none;width: auto;box-shadow: 0 6px 10px 0 rgba(27,28,30,.31);color: #ffffff;
+}
+.button{
+  text-align: center;display: inline-block;border-radius: 3px;font-size: 15px;font-weight: 700;outline: none;
+  border: none;width: auto;box-shadow: 0 6px 10px 0 rgba(27,28,30,.31);color: #ffffff;
+}
+.navbar-search{
+  max-width: 550px;margin: auto;align-items: center;
+  flex: 1;justify-content: space-around;position: relative;color: #ffffff;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+.bold{
+  font-weight: bold !important;
+  font-size: 18px;
+  font-family: Proxima Nova Bold,Helvetica Neue,Helvetica,Arial,Sans;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+}
+.search-box{
+  background: hsla(0,0%,100%,.25);border: 1px solid transparent;padding: 2px 5px 2px 10px;border-radius: 3px;width: 100%;
+  outline: 0 none;opacity: .8;min-height: 32px;font-size: 16px;font-weight: 700;letter-spacing: .4px;color: #ffffff !important;
+  text-shadow: inherit;display: flex;flex-direction: row;align-items: center;
+}
+.search-input{
+  height: 32px;
+  background: unset;
+  outline: none;
+  width: 95%;
+  border: unset;
+}
+.text{
+  font-size: 24px;
+  margin-top: 12px;
+  font-family: Proxima Nova ExtraBold,Helvetica Neue,Helvetica,Arial,sans-serif;
+  letter-spacing: 0.6px;
+  color: #aed8ea;
+  text-align: center;
+
+}
+.search{
+  width: 18px;height: 18px;
+}
+.navbar{
+  text-align: center;margin: 0 auto;padding: 10px;display: flex;width: 100%;align-items: center;
+}
+.navbar-left{
+  min-width: 335px;
+  position: relative;
+  display: inline-flex;
+}
+.navbar-center{
+  max-width: 550px;
+  margin: auto;
+  align-items: center;
+  flex: 1;
+  justify-content: space-around;
+}
+.navbar-right{
+  justify-content: flex-end;
+  min-width: 280px;
+  position: relative;
+  display: inline-flex;
+}
+.signin{
+  margin: auto 0px auto 0px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 14px 15px rgba(27,28,30,.31);
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.text{
+  font-family:  Proxima Nova ExtraBold,Arial,Sans,Helvetica;
+}
+.blue-block{
+  color: #fff;width: 75%;margin: 10px  auto;
+  font-family: Proxima Nova ExtraBold,Arial,Sans,Helvetica;
+  background-image: url(https://s.imgur.com/desktop-assets/desktop-assets/emerald-bg-banner.718b1139482f99c8101b4420b0fe74fb.png);
+  background-position: 50%;display: flex;z-index: 1;padding: 20px 30px;font-size: 20px;overflow: hidden;border-radius: 4px;text-decoration: none;
+}
+.block-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+  padding-left: 55px;
+  width: 300px;
+}
+.colored-signup{
+  background: linear-gradient(339.49deg,#9c31ff 20.63%,#3592ff 58.04%,#69d8ca 97.43%);
+  border-radius: 6px;margin: 10px auto;color: #fff;text-align: center;
+  font-family: Proxima Nova ExtraBold,Arial,Sans,Helvetica;
+  font-size: 18px;line-height: 18px;letter-spacing: .01em;padding: 10px 40px;width: fit-content;
+}
+.column-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 360px;
+}
+.img-yellow{
+  width: 48px;
+  height: 48px;
+  top: -2px;
+  left: 191px;
+  position: absolute;
+}
+.img-orange{
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  top: 27px;
+  left: 161px;
+  z-index: 50;
+  position: absolute;
+}
+
+.img-blue{
+  top: 23px;
+  left: 210px;
+  z-index: 100;
+  position: absolute;
+}
